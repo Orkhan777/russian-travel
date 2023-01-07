@@ -21,6 +21,7 @@
     .photo-grid {
         max-width: 720px;
         padding: 0 16px 40px 16px;
+        margin-bottom: 64px;
     }
   }
 
