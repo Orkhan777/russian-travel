@@ -1,4 +1,3 @@
 .photo-grid__image {
-    width: 284px;
-    height: 213px;
-  }
+  width: 100%;
+}

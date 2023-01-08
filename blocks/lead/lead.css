@@ -1,28 +1,16 @@
 .lead {
-    background-color: #2A2C2F;
-    max-width: 984px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 92px;
-    box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 90.625%;
   }
-  
-  @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .lead {
-      max-width: 928px;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
   }
-  
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .lead {
-      margin-bottom: 88px;
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .lead {
-      margin-bottom: 64px;
-    }
-  }
+}
