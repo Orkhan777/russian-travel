@@ -4,30 +4,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28px 0 56px;
-}
-
-@media screen and (max-width: 1280px) {
-  .header {
-    max-width: 92.5%;
-  }
+  margin: 28px 48px 56px 48px;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    max-width: 90.625%;
-    padding-bottom: 48px;
+    max-width: 928px;
+    margin: 28px 48px 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    max-width: 93.75%;
+    margin: 28px 24px 48px 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    max-width: 90%;
+    min-width: 288px;
+    margin: 16px 16px 48px 16px;
   }
 }

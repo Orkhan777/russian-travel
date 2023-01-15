@@ -1,10 +1,10 @@
 .footer__link {
   display: block;
   text-decoration: none;
-  color: #fff;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+  color: #FFFFFF;
   transition: .2s ease-in-out;
   padding-right: 18px;
 }
@@ -13,10 +13,10 @@
   opacity: .5;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .footer__link {
-    padding-bottom: 32px;
     padding-right: 0;
+    padding-bottom: 32px;
     font-size: 24px;
     line-height: 24px;
   }

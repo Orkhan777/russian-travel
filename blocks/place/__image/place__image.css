@@ -3,8 +3,9 @@
   grid-row: 2/6;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .place__image {
     grid-row: auto;
+    padding-bottom: 32px;
   }
 }
