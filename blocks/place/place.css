@@ -13,8 +13,14 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: 240px 1fr;
+    grid-template-columns: 335px 1fr;
     grid-column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place {
+    grid-template-columns: 240px 1fr;
   }
 }
 
